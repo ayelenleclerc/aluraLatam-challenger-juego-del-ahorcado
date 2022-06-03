@@ -74,7 +74,7 @@ function guardarPalabra() {
   input_Usu.addEventListener("change", (e) => {
     let input_newPalabra = document.getElementById("input").value.toUpperCase();
     input_Usu.textContent = e.target.value.toUpperCase();
-    listasDepalabras.push(input_newPalabra);
+    palabrasAhorcado.push(input_newPalabra);
     input_Usu.classList.remove("visible-ahorcado");
     input_Usu.classList.add("invisible-ahorcado");
     Toastify({
