@@ -6,7 +6,7 @@ let rankingStar =
 
 for (let i = 0; i < 5; i++) {
   let starImg = document.createElement("img");
-  starImg.src = "../img/star.svg";
+  starImg.src = "../img/star.png";
   starImg.className = "star-style";
   starContainer.appendChild(starImg);
 
@@ -24,9 +24,9 @@ function onStarHover(i) {
 function fill(ratingValue) {
   for (let i = 0; i < 5; i++) {
     if (i <= ratingValue) {
-      stars[i].src = "../img/starColor.svg";
+      stars[i].src = "../img/starColor.png";
     } else {
-      stars[i].src = "../img/star.svg";
+      stars[i].src = "../img/star.png";
     }
   }
 }
