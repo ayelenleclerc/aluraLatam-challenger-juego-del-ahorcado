@@ -99,7 +99,7 @@ console.log(palabrasAhorcado); // verificacion de que las guarda
 btn_jugar.addEventListener("click", iniciar);
 
 function iniciar(event) {
-  imagen.src = "../img/ahorcado/img0.png";
+  imagen.src = "img/ahorcado/img0.png";
   btn_letra.disabled = true;
   cant_errores = 0;
   cant_aciertos = 0;
