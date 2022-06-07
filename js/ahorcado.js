@@ -162,7 +162,7 @@ for (let i = 0; i < btn_letra.length; i++) {
     }
     if (acerto == false) {
       cant_errores++;
-      imagen.src = `../img/ahorcado/img${cant_errores}.png`;
+      imagen.src = `./img/ahorcado/img${cant_errores}.png`;
       console.log(acerto);
     }
 
